@@ -1,0 +1,7 @@
+from sklearn import tree
+#[height,weight,shoe size]
+X=[[181,80,44],[200,59,42],[466,55,26],[250,153,85],[181,85,43],[171,75,42]]
+Y=['female','female','male','male','female','male']
+clf=tree.DescisionTreeClassifiers()
+clf=clf.fit(X,Y)
+prediction=clf.predict([190,70,43])
