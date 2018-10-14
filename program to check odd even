@@ -1,10 +1,11 @@
+
 #include <stdio.h>
 int main()
 {
-    int number;
+    int number; //this will create a number integar.
 
     printf("Enter an integer: ");
-    scanf("%d", &number);
+    scanf("%d", &number); //this will take input from the user
 
     // True if the number is perfectly divisible by 2
     if(number % 2 == 0)
